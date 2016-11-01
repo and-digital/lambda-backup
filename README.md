@@ -19,12 +19,12 @@ If you wish to change these default values, refer to ```src/run.py```.
 ```
 git clone git@github.com:andigital/lambda-backup.git
 cd lambda-backup
-AWS_ACCESS_KEY_ID=<your-aws-access-key-here> AWS_SECRET_ACCESS_KEY=<your-aws-secret-key-here> ./setup.sh enable
+AWS_DEFAULT_REGION=<aws-region-here> AWS_ACCESS_KEY_ID=<your-aws-access-key-here> AWS_SECRET_ACCESS_KEY=<your-aws-secret-key-here> ./setup.sh enable
 ```
 
 ## To disable backups and tear down the Lambda function
 ```
-AWS_ACCESS_KEY_ID=<your-aws-access-key-here> AWS_SECRET_ACCESS_KEY=<your-aws-secret-key-here> ./setup.sh disable
+AWS_DEFAULT_REGION=<aws-region-here> AWS_ACCESS_KEY_ID=<your-aws-access-key-here> AWS_SECRET_ACCESS_KEY=<your-aws-secret-key-here> ./setup.sh disable
 ```
 
 ## Caveats
