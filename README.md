@@ -1,5 +1,6 @@
-# Lambda Backup
 ![Lambda Backup](https://lambdabackup.com/lambda-backup-logo.png)
+
+# Lambda Backup
 A drop-in solution to create Amazon Web Services EBS snapshots on a schedule. Enable daily backups of your AWS EC2 infrastructure in 10 seconds with zero configuration and no need for backup a server.
 
 Lambda Backup will use your AWS credentials to install an AWS Lambda function that will traverse the list of your EC2 instances, and create snapshots of all attached volumes. It will then clean up any snapshots that are set to be deleted. Lambda Backup will schedule this function to run every night between 1 and 2 am. The exact time is randomized.
