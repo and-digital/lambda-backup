@@ -10,7 +10,7 @@ By default, Lambda Backup backs up all of your EC2 instances every night. It pre
 
 Each EBS volume attached to your EC2 instances will be backed up separately. To disable backups for an instance, set a tag with the name ```LambdaBackupStrategy``` and the value ```Never```.
 
-If you wish to change these default values, refer to ```src/run.py```.
+If you wish to change these default values, refer to ```lib/aws/src/lambda_backup.py```.
 
 ## Requirements
 - AWS credentials that can create Lambda functions
