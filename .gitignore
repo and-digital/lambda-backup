@@ -1,1 +1,2 @@
 terraform.tfstate*
+lib/*/dist/*
